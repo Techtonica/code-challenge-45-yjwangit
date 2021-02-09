@@ -10,8 +10,11 @@
 
 
 function max_end3(int_array){
-  // Add functionality here!
-  return
+  let num = Math.max(int_arr[0],int_arr[int_arr.length-1]);
+  for(let i=0; i<int_arr.length; i++){
+      int_arr[i]=num;
+  }
+  return int_arr;
 }
 
 
