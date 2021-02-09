@@ -10,11 +10,11 @@
 
 
 function max_end3(int_array){
-  let num = Math.max(int_arr[0],int_arr[int_arr.length-1]);
-  for(let i=0; i<int_arr.length; i++){
-      int_arr[i]=num;
+  let num = Math.max(int_array[0],int_array[int_array.length-1]);
+  for(let i=0; i<int_array.length; i++){
+      int_array[i]=num;
   }
-  return int_arr;
+  return int_array;
 }
 
 
